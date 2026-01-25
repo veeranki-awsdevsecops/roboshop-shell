@@ -1,7 +1,7 @@
 dnf install maven -y
 dnf install mysql -y
 useradd roboshop
-cp shipping.repo /etc/systemd/system/shipping.service
+cp shipping.service /etc/systemd/system/shipping.service
 
 mkdir /app
 curl -L -o /tmp/shipping.zip https://roboshop-artifacts.s3.amazonaws.com/shipping-v3.zip

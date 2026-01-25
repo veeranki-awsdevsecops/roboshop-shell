@@ -4,7 +4,7 @@ dnf install nodejs -y
 
 #starting because changing the location.
 cp catalogue /etc/systemd/system/catalogue.service
-cp mongo.repo /etc/yum.repos.d/mongo.repo
+cp mongo.service /etc/yum.repos.d/mongo.repo
 
 
 useradd roboshop
